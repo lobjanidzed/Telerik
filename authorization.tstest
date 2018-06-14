@@ -1,0 +1,674 @@
+{
+  "__type": "Telerik.TestStudio.Load.LoadDesignTest",
+  "__value": {
+    "ControllerConfiguration": {
+      "__type": "Telerik.TestStudio.Load.LoadControllerConfiguration",
+      "__value": {
+        "MachineName": null
+      }
+    },
+    "ProfiledServers": [],
+    "Goals": [
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Average Response Time (ms)",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Average Response Time (ms)",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Average Response Time (ms) for Overall Test",
+          "RunDescription": "Fail this goal if Average Response Time (ms) is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application respond in less than 3000 milliseconds?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "HTTP Errors/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 15.0,
+              "Operator": ">",
+              "PassWhenGoalMet": false,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "HTTP Errors/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "HTTP Errors/second for Overall Test",
+          "RunDescription": "Fail this goal if HTTP Errors/second is greater than",
+          "ResultsDescription": "You specified to fail this goal if the value is greater than 15. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 15.0,
+          "IsEnabled": true,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": false,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application throw no more than 10 errors per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Responses Received/second",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Responses Received/second",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Responses Received/second for Overall Test",
+          "RunDescription": "Pass this goal if Responses Received/second is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application return more than 100 responses per second?\""
+        }
+      },
+      {
+        "__type": "Telerik.TestStudio.Load.ViewModels.LoadTestGoalViewModel",
+        "__value": {
+          "MessageInfo": {
+            "__type": "Telerik.TestStudio.Load.Common.GoalsHelpers.GoalMessageInfo",
+            "__value": {
+              "MetricName": "Current Virtual Users",
+              "MachineName": "Overall Test",
+              "IsCustomGoal": false,
+              "Threshold": 0.0,
+              "Operator": ">",
+              "PassWhenGoalMet": true,
+              "StopWhenGoalMet": false
+            }
+          },
+          "Name": "Current Virtual Users",
+          "MachineName": "Overall Test",
+          "RunTitleDisplay": "Current Virtual Users for Overall Test",
+          "RunDescription": "Pass this goal if Current Virtual Users is greater than",
+          "ResultsDescription": "You specified to pass this goal if the value is greater than 0. The value reached is {0:0.}.",
+          "Operator": ">",
+          "Threshold": 0.0,
+          "IsEnabled": false,
+          "StopTestWhenGoalMet": false,
+          "PassWhenGoalMet": true,
+          "IsCustomGoal": false,
+          "ExampleText": "Example: \"Does my application handle more than 1000 user requests concurrently?\""
+        }
+      }
+    ],
+    "ControlAndLoadFromThisComputer": false,
+    "ReportingSampleInterval": "00:00:05",
+    "Duration": "00:02:00",
+    "Preferences": {
+      "ForceNewConnection": true,
+      "DelayGC": false
+    },
+    "IgnoreGoalsForXSeconds": 0,
+    "AuthorizationProfiles": [],
+    "IsManual": false,
+    "AutomaticallyDistributeUserGroups": false,
+    "LoadAgentConfigurations": [],
+    "UserGroups": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenarioGroup",
+        "__value": {
+          "MinimumUsers": 1,
+          "StartUserCount": 1,
+          "MaxUserCount": 25,
+          "UserRampTimeInMinutes": 1.0,
+          "Name": null,
+          "UserScenarios": [
+            {
+              "__type": "Telerik.TestStudio.Load.ConfiguredScenario",
+              "__value": {
+                "IsEnabled": true,
+                "Percentage": 87.0,
+                "ScenarioId": "dae9195b-64f8-4103-a69f-5e3ed912b299"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "UserScenarios": [
+      {
+        "__type": "Telerik.TestStudio.Load.LoadDesignScenario",
+        "__value": {
+          "BindingSources": {},
+          "BindingSourceSteps": {},
+          "Actions": [
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklkZW50aWZpZXI9cDJwdGVzdCZwYXNzd29yZD1QYXJvbGkxJm90cERlbGl2ZXJ5Q2hhbm5lbD0yJnJlcT1sb2dpbg==",
+                    "Guid": "5381a05a-2fd7-4858-9808-beaf8ef10273",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "70",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jc; _ceg.u=p9t1jc; _ga=GA1.2.1185497839.1528125961; _gid=GA1.2.1233620.1528125961; _gat_UA-120090930-1=1"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 2932,
+                    "Timestamp": "2018-06-04T19:26:03.9445651+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMCwiSXNMb2dnZWRPbiI6dHJ1ZSwiSXNPVFBSZXF1aXJlZCI6ZmFsc2UsIlVzZXJJRCI6MjIyOTk4OCwiVXNlck5hbWUiOiJwMnB0ZXN0IiwiRXJyb3JDb2RlIjowLCJVc2VyU3RhdHVzSUQiOjEsIkxhbmd1YWdlIjoia2EiLCJTdXNwZW5kVGlsbCI6IiIsIlByZWZlcnJlZEN1cnJlbmN5IjoyfQo=",
+                    "Guid": "e04ba9b1-d7e9-4828-b570-191047529788",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "182",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Set-Cookie": "JSESSIONID=eyJ0cyI6MjcxMDE0NjQ4MTIxLCJkdCI6ImV5SjFhV1FpT2pJeU1qazVPRGdzSW5OemFXUWlPaUkxTkRsbU5HVXlZUzFsWVdNMExUUTFPRGt0WWprME15MHhZemcwWmpKbU16bGpaak1pZlE9PSIsInNnIjoiMTNmNTY1YTlkNGE0ZmEzMzhjY2MyYTgyMjU2Nzc0ZWEifQ==;Path=/;Domain=.adjarabet.com;Secure;HttpOnly",
+                      "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:03.9445651+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklEPTIyMjk5ODgmcmVxPWdldElERG9jdW1lbnRz",
+                    "Guid": "415ccc80-a4cc-493e-82ce-b070a27d5326",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "33",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jc; _ceg.u=p9t1jc; _ga=GA1.2.1185497839.1528125961; _gid=GA1.2.1233620.1528125961; _gat_UA-120090930-1=1; JSESSIONID=eyJ0cyI6MjcxMDE0NjQ4MTIxLCJkdCI6ImV5SjFhV1FpT2pJeU1qazVPRGdzSW5OemFXUWlPaUkxTkRsbU5HVXlZUzFsWVdNMExUUTFPRGt0WWprME15MHhZemcwWmpKbU16bGpaak1pZlE9PSIsInNnIjoiMTNmNTY1YTlkNGE0ZmEzMzhjY2MyYTgyMjU2Nzc0ZWEifQ=="
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 2933,
+                    "Timestamp": "2018-06-04T19:26:04.0333281+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMCwgIklERG9jdW1lbnRzIjogW3siSUQiOjI2MDA2MzgsIkRvY3VtZW50VHlwZUlEIjoxLCJEb2N1bWVudE51bWJlciI6IjU1MjIyMjI1MjIyIiwiUGVyc29uYWxJRCI6IjU1MjIyMjI1MjIyIiwiQ291bnRyeUlEIjo3LCJEb2N1bWVudEZyb250SW1hZ2VVUkwiOiIxNDk5NzY1Njk1LmpwZyIsIkRhdGVNb2RpZmllZCI6IjIwMTctMDctMTFUMTM6NDM6MTArMDQ6MDAiLCJJc1ZlcmlmaWVkIjp0cnVlfSx7IklEIjozMDI1NTE4LCJEb2N1bWVudFR5cGVJRCI6MywiRG9jdW1lbnROdW1iZXIiOiI1MzQ0MjM0MjMyMyIsIlBlcnNvbmFsSUQiOiJudWxsIiwiQ291bnRyeUlEIjo3LCJEYXRlTW9kaWZpZWQiOiIyMDE3LTEwLTI1VDE4OjU5OjUzKzA0OjAwIiwiSXNWZXJpZmllZCI6ZmFsc2V9LHsiSUQiOjMwMjc5NDgsIkRvY3VtZW50VHlwZUlEIjoyLCJEb2N1bWVudE51bWJlciI6IlRFU1QyMzIzMjEzIiwiUGVyc29uYWxJRCI6Im51bGwiLCJDb3VudHJ5SUQiOjcsIkRhdGVNb2RpZmllZCI6IjIwMTctMDYtMzBUMTY6NTk6NDArMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzAzNzA0MSwiRG9jdW1lbnRUeXBlSUQiOjQsIkRvY3VtZW50TnVtYmVyIjoiNDIzMTIzMzEyMzEiLCJQZXJzb25hbElEIjoibnVsbCIsIkNvdW50cnlJRCI6NywiRGF0ZU1vZGlmaWVkIjoiMjAxNy0xMS0wOFQxNTo0OTo0NiswNDowMCIsIklzVmVyaWZpZWQiOmZhbHNlfSx7IklEIjozMDQzMzE0LCJEb2N1bWVudFR5cGVJRCI6NSwiRG9jdW1lbnROdW1iZXIiOiIyMTMxMjMxMjMxMiIsIlBlcnNvbmFsSUQiOiJudWxsIiwiQ291bnRyeUlEIjo3LCJEYXRlTW9kaWZpZWQiOiIyMDE3LTA3LTExVDE4OjA1OjA0KzA0OjAwIiwiSXNWZXJpZmllZCI6ZmFsc2V9XX0K",
+                    "Guid": "06f2b847-7ee2-4d8f-8556-51dd353e4f00",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "888",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:04.0333281+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklEPTIyMjk5ODgmcmVxPWxvZ291dA==",
+                    "Guid": "5ea0d4c8-ce36-40a3-99eb-862e2c4ca960",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "25",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jc; _ceg.u=p9t1jc; _ga=GA1.2.1185497839.1528125961; _gid=GA1.2.1233620.1528125961; _gat_UA-120090930-1=1; JSESSIONID=eyJ0cyI6MjcxMDE0NjQ4MTIxLCJkdCI6ImV5SjFhV1FpT2pJeU1qazVPRGdzSW5OemFXUWlPaUkxTkRsbU5HVXlZUzFsWVdNMExUUTFPRGt0WWprME15MHhZemcwWmpKbU16bGpaak1pZlE9PSIsInNnIjoiMTNmNTY1YTlkNGE0ZmEzMzhjY2MyYTgyMjU2Nzc0ZWEifQ==; f9006511607f51550f31ce091a16491d=eyJ0cyI6MjcxMDE0NjQ5OTk0LCJkdCI6ImV5SnpZeUk2TWpBd0xDSnlaQ0k2SW1WNVNrWmpia3AyWTJ0T2RscEhWV2xQYWtGelNXeEtiR016Vm5Oa1EwazJUVU0wZDAxdU1EMGlmUT09Iiwic2ciOiJmZWM4NWY4MTU4OGVmYjY4ZmU5ZjQyZGEyZDllOWI3ZiJ9"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 2934,
+                    "Timestamp": "2018-06-04T19:26:06.1367172+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMH0K",
+                    "Guid": "504e3660-56de-4c0d-9824-1b461a632e6e",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "18",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Set-Cookie": "JSESSIONID=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly,JSESSIONID=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly,f9006511607f51550f31ce091a16491d=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly",
+                      "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:06.1367172+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklkZW50aWZpZXI9cWF0NCZwYXNzd29yZD1QYXJvbGkzJm90cERlbGl2ZXJ5Q2hhbm5lbD0yJnJlcT1sb2dpbg==",
+                    "Guid": "d2ee6575-84fe-48bd-8350-2c0c41839615",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "67",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jm; _ceg.u=p9t1jm; _ga=GA1.2.1213194578.1528125971; _gid=GA1.2.989463932.1528125971; _gat_UA-120090930-1=1"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 3055,
+                    "Timestamp": "2018-06-04T19:26:13.7976642+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMCwiSXNMb2dnZWRPbiI6dHJ1ZSwiSXNPVFBSZXF1aXJlZCI6ZmFsc2UsIlVzZXJJRCI6MjMyNTA5NSwiVXNlck5hbWUiOiJxYXQ0IiwiRXJyb3JDb2RlIjowLCJVc2VyU3RhdHVzSUQiOjcsIkxhbmd1YWdlIjoia2EiLCJTdXNwZW5kVGlsbCI6IjIwMTctMDktMjhUMTQ6MDM6MDArMDQ6MDAiLCJQcmVmZXJyZWRDdXJyZW5jeSI6Mn0K",
+                    "Guid": "dff630c2-3387-4df9-9fd8-1dd9564ea33b",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "204",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Set-Cookie": "JSESSIONID=eyJ0cyI6MjcxMDE0NjU3OTc0LCJkdCI6ImV5SjFhV1FpT2pJek1qVXdPVFVzSW5OemFXUWlPaUkzWmpkaE9URXpOaTAxWWpsbExUUmlZVFl0T1RjeFlTMDJNR1kwTkRZMFpXUTNZV0lpZlE9PSIsInNnIjoiYjA4YTAxZWY3MzE2ODI4MDA3ZDE5NTExZjhjZTkwYWQifQ==;Path=/;Domain=.adjarabet.com;Secure;HttpOnly",
+                      "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:13.7976642+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklEPTIzMjUwOTUmcmVxPWdldFVzZXJJbmZv",
+                    "Guid": "f61f5291-1dae-4176-bf46-a9ee407fcd57",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "30",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jm; _ceg.u=p9t1jm; _ga=GA1.2.1213194578.1528125971; _gid=GA1.2.989463932.1528125971; _gat_UA-120090930-1=1; JSESSIONID=eyJ0cyI6MjcxMDE0NjU3OTc0LCJkdCI6ImV5SjFhV1FpT2pJek1qVXdPVFVzSW5OemFXUWlPaUkzWmpkaE9URXpOaTAxWWpsbExUUmlZVFl0T1RjeFlTMDJNR1kwTkRZMFpXUTNZV0lpZlE9PSIsInNnIjoiYjA4YTAxZWY3MzE2ODI4MDA3ZDE5NTExZjhjZTkwYWQifQ=="
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 3058,
+                    "Timestamp": "2018-06-04T19:26:13.8754554+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMCwiVXNlcklEIjoyMzI1MDk1LCJOYW1lIjoiYXNkYXNkIiwiU3VybmFtZSI6ImFzZGFzZCIsIk1pZGRsZU5hbWUiOiIiLCJHZW5kZXIiOiJNIiwiVXNlck5hbWUiOiJxYXQ0IiwiQ291bnRyeUlEIjo3LCJBZGRyZXNzIjoiMTIzNDVhc2RjIDEyMzQ1YXNkYyAxMjM0NWFzZGMgMTIzNDVhc2RjIDEyMzQ1YXNkYyAxMjM0NWFzZGMgMTIzNDVhc2RjIDEyMzQ1YXNkYyAxMjM0NWFzZGMgIiwiQmlydGhEYXRlIjoiMTk5OS0wMS0wMSIsIkVtYWlsIjoibXVwb2hlbWl3aUAyb2RlbS5jb20iLCJUZWwiOiI5OTU1OTUwNjg5NDAiLCJTdGF0dXNJRCI6NywiSXNPVFBPbiI6ZmFsc2UsIkhhc0NsdWJDYXJkIjpmYWxzZSwiTGFuZ3VhZ2UiOiJrYSIsIlRlbGVwaG9uZUNvZGUiOiI5Nzc1MjQwOCIsIlN1c3BlbmRUaWxsIjoiMjAxNy0wOS0yOCAxNDowMzowMC4wIiwiRGF0ZVJlZ2lzdGVyZWQiOiIyMDE3LTAxLTE3VDAyOjAyOjM4KzA0OjAwIiwiQWN0aXZlTm90aWZpY2F0aW9ucyI6NDI5NDk2NzI5NiwiUHJlZmVycmVkQ3VycmVuY3lJRCI6MiwiVmVyaWZpZWRDb250YWN0Q2hhbm5lbCI6M30K",
+                    "Guid": "685e0a85-2386-4a7a-b724-abf28c8cb483",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "570",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:13.8754554+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklEPTIzMjUwOTUmcmVxPWdldElERG9jdW1lbnRz",
+                    "Guid": "b6ae9245-48cc-4f10-a93d-a26690bc2b6e",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "33",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jm; _ceg.u=p9t1jm; _ga=GA1.2.1213194578.1528125971; _gid=GA1.2.989463932.1528125971; _gat_UA-120090930-1=1; JSESSIONID=eyJ0cyI6MjcxMDE0NjU3OTc0LCJkdCI6ImV5SjFhV1FpT2pJek1qVXdPVFVzSW5OemFXUWlPaUkzWmpkaE9URXpOaTAxWWpsbExUUmlZVFl0T1RjeFlTMDJNR1kwTkRZMFpXUTNZV0lpZlE9PSIsInNnIjoiYjA4YTAxZWY3MzE2ODI4MDA3ZDE5NTExZjhjZTkwYWQifQ=="
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 3061,
+                    "Timestamp": "2018-06-04T19:26:13.8854285+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMCwgIklERG9jdW1lbnRzIjogW3siSUQiOjI3MDU5MDMsIkRvY3VtZW50VHlwZUlEIjoxLCJEb2N1bWVudE51bWJlciI6IjIzMTQxMjQxMjM1IiwiUGVyc29uYWxJRCI6IjIzMTQxMjQxMjM1IiwiQ291bnRyeUlEIjo3LCJEYXRlTW9kaWZpZWQiOiIyMDE4LTA1LTE1VDE0OjI1OjM3KzA0OjAwIiwiSXNWZXJpZmllZCI6ZmFsc2V9LHsiSUQiOjMyNDAyNDksIkRvY3VtZW50VHlwZUlEIjoyLCJEb2N1bWVudE51bWJlciI6IjU1NjQ2NDY1NDY1IiwiUGVyc29uYWxJRCI6Im51bGwiLCJDb3VudHJ5SUQiOjcsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMDJUMTY6NTk6MDcrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzMzQ5NiwiRG9jdW1lbnRUeXBlSUQiOjEsIkRvY3VtZW50TnVtYmVyIjoiMTQ1NjE0NTY0NSIsIlBlcnNvbmFsSUQiOiIxNDU2MTQ1NjQ1IiwiQ291bnRyeUlEIjo1MjEsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMzFUMTI6Mjc6MzcrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzMzQ5OSwiRG9jdW1lbnRUeXBlSUQiOjIsIkRvY3VtZW50TnVtYmVyIjoiMTIzNDU2Nzg5OSIsIlBlcnNvbmFsSUQiOiIxMjM0NTY3ODk5IiwiQ291bnRyeUlEIjo1MjEsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMTdUMTg6MTA6MDgrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzMzUwNSwiRG9jdW1lbnRUeXBlSUQiOjUsIkRvY3VtZW50TnVtYmVyIjoiMzU0MzU0MzU0MzUiLCJQZXJzb25hbElEIjoiMzU0MzU0MzU0MzUiLCJDb3VudHJ5SUQiOjUyMSwiRGF0ZU1vZGlmaWVkIjoiMjAxOC0wNS0xN1QxODoxMDo1NCswNDowMCIsIklzVmVyaWZpZWQiOmZhbHNlfSx7IklEIjozNTMzNTExLCJEb2N1bWVudFR5cGVJRCI6MywiRG9jdW1lbnROdW1iZXIiOiIyNTE0NTQ1MTQ1IiwiUGVyc29uYWxJRCI6IjI1MTQ1NDUxNDUiLCJDb3VudHJ5SUQiOjUyMSwiRGF0ZU1vZGlmaWVkIjoiMjAxOC0wNS0xN1QxODoxMjoxNyswNDowMCIsIklzVmVyaWZpZWQiOmZhbHNlfSx7IklEIjozNTMzNTE0LCJEb2N1bWVudFR5cGVJRCI6NSwiRG9jdW1lbnROdW1iZXIiOiI1MTQ1MTUxNTEyMSIsIlBlcnNvbmFsSUQiOiI1MTQ1MTUxNTEyMSIsIkNvdW50cnlJRCI6NywiRGF0ZU1vZGlmaWVkIjoiMjAxOC0wNS0xN1QxODoxMzowNiswNDowMCIsIklzVmVyaWZpZWQiOmZhbHNlfSx7IklEIjozNTM0MzA2LCJEb2N1bWVudFR5cGVJRCI6MSwiRG9jdW1lbnROdW1iZXIiOiIxMTQxNDExNDI1IiwiUGVyc29uYWxJRCI6IjExNDE0MTE0MjUiLCJDb3VudHJ5SUQiOjgsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMThUMTY6MTk6NTgrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzNDMwOSwiRG9jdW1lbnRUeXBlSUQiOjEsIkRvY3VtZW50TnVtYmVyIjoiMjAyNTAyMjUyNSIsIlBlcnNvbmFsSUQiOiIyMDI1MDIyNTI1IiwiQ291bnRyeUlEIjo1MTUsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMThUMTY6MjY6MDkrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzNDMxMiwiRG9jdW1lbnRUeXBlSUQiOjEsIkRvY3VtZW50TnVtYmVyIjoiMjAyNTAyMjUyNSIsIlBlcnNvbmFsSUQiOiIyMDI1MDIyNTI1IiwiQ291bnRyeUlEIjo3NDAsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMThUMTY6MjY6MjYrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzNDMzMywiRG9jdW1lbnRUeXBlSUQiOjEsIkRvY3VtZW50TnVtYmVyIjoiMTEyNTI1MjQ0NCIsIlBlcnNvbmFsSUQiOiIxMTI1MjUyNDQ0IiwiQ291bnRyeUlEIjo1MTEsIkRhdGVNb2RpZmllZCI6IjIwMTgtMDUtMThUMTY6NDE6NDkrMDQ6MDAiLCJJc1ZlcmlmaWVkIjpmYWxzZX0seyJJRCI6MzUzNDM1NywiRG9jdW1lbnRUeXBlSUQiOjEsIkRvY3VtZW50TnVtYmVyIjoiMjQxNTIyNTEyIiwiUGVyc29uYWxJRCI6IjI0MTUyMjUxMiIsIkNvdW50cnlJRCI6NjkyLCJEYXRlTW9kaWZpZWQiOiIyMDE4LTA1LTE4VDE2OjUxOjExKzA0OjAwIiwiSXNWZXJpZmllZCI6ZmFsc2V9LHsiSUQiOjM1MzQzNzIsIkRvY3VtZW50VHlwZUlEIjozLCJEb2N1bWVudE51bWJlciI6IjQzMjQzMjQzMjQiLCJQZXJzb25hbElEIjoiNDMyNDMyNDMyNCIsIkNvdW50cnlJRCI6NjkzLCJEYXRlTW9kaWZpZWQiOiIyMDE4LTA1LTE4VDE3OjAwOjIwKzA0OjAwIiwiSXNWZXJpZmllZCI6ZmFsc2V9XX0K",
+                    "Guid": "1fbf42d4-7366-4362-bbe5-ab96fcc2a4d8",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "2211",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:13.8854285+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            },
+            {
+              "__type": "Telerik.TestStudio.Load.Http.HttpDesignScenarioStep",
+              "__value": {
+                "Request": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpRequest",
+                  "__value": {
+                    "Response": null,
+                    "Content": "dXNlcklEPTIzMjUwOTUmcmVxPWxvZ291dA==",
+                    "Guid": "b8ca147a-8855-4438-953f-3ae7ae8c940f",
+                    "HasCloseConnectionOption": false,
+                    "Headers": {
+                      "Host": "coreapi.adjarabet.com",
+                      "Connection": "keep-alive",
+                      "Content-Length": "25",
+                      "Origin": "https://www.adjarabet.com",
+                      "X-Requested-With": "XMLHttpRequest",
+                      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+                      "Content-Type": "application/x-www-form-urlencoded",
+                      "Accept": "*/*",
+                      "Referer": "https://www.adjarabet.com/ka",
+                      "Accept-Encoding": "gzip, deflate, br",
+                      "Accept-Language": "en-US,en;q=0.9",
+                      "Cookie": "curLang=ka; _ceg.s=p9t1jm; _ceg.u=p9t1jm; _ga=GA1.2.1213194578.1528125971; _gid=GA1.2.989463932.1528125971; _gat_UA-120090930-1=1; JSESSIONID=eyJ0cyI6MjcxMDE0NjU3OTc0LCJkdCI6ImV5SjFhV1FpT2pJek1qVXdPVFVzSW5OemFXUWlPaUkzWmpkaE9URXpOaTAxWWpsbExUUmlZVFl0T1RjeFlTMDJNR1kwTkRZMFpXUTNZV0lpZlE9PSIsInNnIjoiYjA4YTAxZWY3MzE2ODI4MDA3ZDE5NTExZjhjZTkwYWQifQ==; rollout-sbtech=2603; c26cfedb83c20fa07360fe33120d793a=eyJ0cyI6MjcxMDE0NjU5NTc1LCJkdCI6ImV5SnpZeUk2TWpBd0xDSnlaQ0k2SW1WNVNrWmpia3AyWTJ0T2RscEhWV2xQYWtGelNXeEtiR016Vm5Oa1EwazJUVU0wTW1aUlBUMGlmUT09Iiwic2ciOiI1ZDA1NTA5NmM2N2IwYzEzMGE3ZTc3YjE2OTk5ZjAyMSJ9"
+                    },
+                    "HttpMethod": "POST",
+                    "HttpVersion": "HTTP/1.1",
+                    "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                    "ID": 3085,
+                    "Timestamp": "2018-06-04T19:26:15.771641+04:00"
+                  }
+                },
+                "UseWindowsAuthentication": true,
+                "RequestUri": "https://coreapi.adjarabet.com/WebsiteService?",
+                "Response": {
+                  "__type": "ArtOfTest.WebAii.Messaging.Http.HttpResponse",
+                  "__value": {
+                    "Content": "eyJTdGF0dXNDb2RlIjoxMH0K",
+                    "Guid": "61111d55-d707-47df-be8b-a7dd652322cd",
+                    "HttpVersion": "HTTP/1.1",
+                    "IsImage": false,
+                    "IsXml": false,
+                    "MimeType": [
+                      "application/json;charset=utf-8"
+                    ],
+                    "Request": null,
+                    "Headers": {
+                      "Content-Length": "18",
+                      "Content-Type": "application/json;charset=utf-8",
+                      "Access-Control-Allow-Origin": "https://www.adjarabet.com",
+                      "Access-Control-Allow-Credentials": "true",
+                      "Set-Cookie": "JSESSIONID=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly,JSESSIONID=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly,c26cfedb83c20fa07360fe33120d793a=;Path=/;Domain=.adjarabet.com;Expires=Thu, 01-Jan-1970 00:00:00 GMT;Max-Age=0;Secure;HttpOnly",
+                      "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+                      "Server": "Jetty(9.4.3.v20170317)",
+                      "Strict-Transport-Security": "max-age=15768000"
+                    },
+                    "StatusCode": 200,
+                    "StatusDescription": "OK",
+                    "Timestamp": "0001-01-01T00:00:00"
+                  }
+                },
+                "DataBindings": null,
+                "RecordedStartTime": "2018-06-04T19:26:15.771641+04:00",
+                "DisplayHeader": "POST https://coreapi.adjarabet.com/WebsiteService?",
+                "BindingDestinations": null,
+                "IsEnabled": true
+              }
+            }
+          ],
+          "Description": "Traffic captured by running Authorization - p2ptest in Chrome(6/4/2018 7:26:18 PM)",
+          "Guid": "dae9195b-64f8-4103-a69f-5e3ed912b299",
+          "WindowsAuthenticationProfileId": null,
+          "FunctionalTestBrowser": 7,
+          "FunctionalTestPath": "Authorization - p2ptest.tstest",
+          "Name": "Authorization - p2ptest"
+        }
+      }
+    ],
+    "LastView": 4,
+    "TestLinks": [],
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "Description": "",
+    "Name": "authorization",
+    "Owner": "",
+    "Path": "authorization.tstest",
+    "Priority": 0,
+    "TestType": 3,
+    "UniqueId": "2454745b-1972-46bf-868e-d322824bd500",
+    "Id": "2454745b-1972-46bf-868e-d322824bd500",
+    "ProjectId": "8a9d0523-3aba-41f0-8484-564bb4b0ebc4",
+    "Version": 200,
+    "ExecutionDescription": "sdasdasd (1) for 10 minutes with 25 users"
+  }
+}

@@ -1,0 +1,2102 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerMetadataConfigurationSet",
+  "__value": {
+    "_bFirstTimeUserConfigurationComplete": true,
+    "Metadata": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerResultsMetadata",
+      "__value": {
+        "_resultsId": "00000000-0000-0000-0000-000000000000",
+        "_ownerTestId": "00000000-0000-0000-0000-000000000000",
+        "_startTime": "0001-01-01T00:00:00",
+        "_totalTime": "00:00:00",
+        "_bCollectProfilerSampleData": true,
+        "_strDescription": null,
+        "_strFolder": "C:\\Users\\User\\AppData\\Local\\Temp",
+        "_strFilePath": null,
+        "_browserType": 1,
+        "_browserVersion": null,
+        "_bClearBrowserCacheBeforeRun": false,
+        "_bWarmUpServerBeforeRun": false
+      }
+    },
+    "ClientPluginConfigurations": {},
+    "Servers": {
+      "11e9e7ea-ade0-4e0e-b477-a73a76bc2e2c": {
+        "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerServerMetadata",
+        "__value": {
+          "CollectProfilerSampleData": true,
+          "Description": null,
+          "Name": "10.10.24.113",
+          "ProfilerPluginSettings": {
+            "a43b256e-1b44-415f-ade4-6e3ea44eb755": {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.PerformanceCounterProfiler.PerformanceCounterConfigurationSettings",
+              "__value": [
+                {
+                  "Key": "Processor",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Processor",
+                      "Description": null,
+                      "Instances": {
+                        "_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "_Total",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "1": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "1",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "2": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "2",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "3": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "3",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Key": "Processor Information",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Processor Information",
+                      "Description": null,
+                      "Instances": {
+                        "_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "_Total",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0,_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0,_Total",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0,0": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0,0",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0,1": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0,1",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0,2": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0,2",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0,3": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0,3",
+                            "Counters": {
+                              "% C1 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C1 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C2 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C2 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% C3 Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% C3 Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% DPC Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% DPC Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Interrupt Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Interrupt Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% of Maximum Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% of Maximum Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Performance Limit": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Performance Limit",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Priority Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Priority Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Privileged Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Privileged Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Performance": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Performance",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% Processor Utility": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% Processor Utility",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% User Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% User Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Average Idle Time": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Average Idle Time",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 Transitions/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 Transitions/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Clock Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Clock Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPC Rate": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPC Rate",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "DPCs Queued/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "DPCs Queued/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Idle Break Events/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Idle Break Events/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Interrupts/sec": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Interrupts/sec",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Parking Status": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Parking Status",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Performance Limit Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Performance Limit Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor Frequency": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor Frequency",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Processor State Flags": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Processor State Flags",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "ServerId": "11e9e7ea-ade0-4e0e-b477-a73a76bc2e2c",
+          "ServerPath": "10.10.24.113",
+          "ServerPort": 55555,
+          "ServerType": 0
+        }
+      }
+    },
+    "Version": "2018.1.116.0"
+  }
+}
